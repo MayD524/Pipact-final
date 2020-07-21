@@ -1,0 +1,23 @@
+#!/bin/bash
+
+## current file start
+## Type: Bash
+## Purpose: start bluetooth
+## Author: Ryan Draskovics
+## Date: 6/19/2020
+
+## Saves Local Bluetooth Data
+bash info
+while true
+do
+  sudo btmgmt find > ~/pibt/rssi_log.txt ## Write bluetooth logs to rssi_log.txt
+  ## Runs the start of python files
+
+  cd ~/pibt ## Set working directory
+  hcitool dev | cut -sf3 > host.txt
+  python3 ~/pibt/get_rssi.py ## Start get_rssi.py
+  python3 ~/pibt/distance.py
+  sleep 30
+done
+
+exit 0 
