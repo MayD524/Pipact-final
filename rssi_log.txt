@@ -1,0 +1,25 @@
+Discovery started
+hci0 type 7 discovering on
+hci0 dev_found: 2F:35:35:44:9C:1B type LE Random rssi -76 flags 0x0004 
+AD flags 0x00 
+eir_len 31
+hci0 dev_found: 0F:74:3E:76:64:60 type LE Random rssi -73 flags 0x0004 
+AD flags 0x00 
+eir_len 31
+hci0 dev_found: A8:34:6A:4C:6C:65 type LE Public rssi -69 flags 0x0000 
+AD flags 0x1a 
+eir_len 13
+hci0 dev_found: 0D:F8:88:66:74:2C type LE Random rssi -50 flags 0x0004 
+AD flags 0x00 
+eir_len 31
+hci0 dev_found: 55:73:20:63:45:BD type LE Random rssi -63 flags 0x0004 
+AD flags 0x00 
+eir_len 38
+hci0 dev_found: A8:34:6A:4C:6C:65 type LE Public rssi -69 flags 0x0000 
+AD flags 0x1a 
+eir_len 13
+hci0 dev_found: DC:A6:32:55:FB:DC type BR/EDR rssi -84 flags 0x0000 
+name pipact2
+hci0 dev_found: 40:5B:D8:74:42:6C type BR/EDR rssi -42 flags 0x0000 
+name DESKTOP-3IJPL9C
+hci0 type 7 discovering off
