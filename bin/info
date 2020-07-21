@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Author: Ryan Draskovics
+# Date: 6/23/2020
+# Version: 0.0.2
+#
+DATE=$(date)
+VER="0.0.2"
+echo "BlueDays - ${VER}"
+echo "by Ryan Draskovics"
+echo "process started at/on: ${DATE}"
+echo "Ctlr-C to exit process"
